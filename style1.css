@@ -1,0 +1,278 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.navbar {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    align-items: center;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar a {
+    font-size: 15px;
+}
+
+.navbar input {
+    height: 35px;
+}
+
+.group1 {
+    display: flex;
+    gap: 25px;
+    font-family: sans-serif;
+    align-items: center;
+}
+
+.group1 select {
+    border: none;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+.group2 {
+    display: flex;
+    gap: 25px;
+}
+
+.group2 .btn1 {
+    border: none;
+    font-weight: bold;
+    font-family: sans-serif;
+    background: none;
+}
+
+.group2 .btn2 {
+    background: #000;
+    color: aliceblue;
+    border-radius: 30px;
+    width: 100px;
+    height: 50px;
+    font-family: sans-serif;
+    font-weight: bold
+}
+
+.searchbar {
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 30px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.searchbar input {
+    outline: none;
+    border: none;
+}
+
+/* Hero section start */
+
+.hero {
+    height: 80vh;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.btn {
+    height: 40px;
+    width: 300px;
+    background: pink;
+    border-radius: 20px;
+    border: none;
+    font-family: sourrce-serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.hero h1 {
+    font-size: 5vw;
+    font-family: "Source Serif 4", Georgia, serif;
+    ;
+    text-align: center;
+    line-height: 1;
+    font-weight: 20;
+}
+
+.hero p {
+    font-size: 1.5vw;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.bigsearch {
+    width: 500px;
+    height: 50px;
+    display: flex;
+    gap: 20px;
+    border: 1px solid black;
+    border-radius: 30px;
+    align-items: center;
+}
+
+.bigsearch i {
+    font-size: 30px;
+    margin-left: 5px;
+}
+
+.bigsearch input {
+    height: 90%;
+    width: 80%;
+    outline: none;
+    border: none;
+    background: transparent;
+}
+
+.trending {
+    height: 50px;
+    width: 60%;
+
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.trending h3 {
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+.trending a {
+    border: 1px solid #f2f2f2;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 30px;
+}
+
+.trending a:hover {
+    border-color: #dedede;
+}
+
+/* hero section end */
+
+/* card section start */
+#card_heading {
+    text-align: center;
+    font-size: 40px;
+    font-family: sans-serif;
+    margin-bottom: 60px;
+    font-weight: 8;
+}
+
+.card {
+    position: relative;
+
+}
+
+.cardrapper {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    gap: 30px;
+}
+
+.imgwrapper {
+    height: 335px;
+    width: 335px;
+    overflow: hidden;
+    border-radius: 30px;
+}
+
+.imgwrapper img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.hoverbox {
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    /* background: linear-gradient(#f2f2f2, white); */
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.card:hover .hoverbox {
+   /* display: block;*/
+    opacity: 1;
+}
+
+.grp11 {
+    font-size: 20px;
+
+}
+
+.grp12 i {
+    font-size: 20px;
+    padding: 10px;
+    background: white;
+    border-radius: 50%;
+}
+/* card section end */
+
+/* Footer section start */
+
+.fotter{
+    height: 50px;
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+     padding-left: 200px;
+    padding-right: 200px; 
+    align-items: center;
+}
+.g1,.g2,.g3{
+    display: flex;
+    gap: 20px;
+   
+}
+.g1 h2{
+    font-size: 40px;
+     font-family: 'Courier New', Courier, monospace;
+}
+.g2 p{
+    font-size: 16px;
+    font-family: sans-serif;
+
+}
+.g3 i{
+   font-size: 25px;
+} 
+ 
+
+
+/* Footer section end */
